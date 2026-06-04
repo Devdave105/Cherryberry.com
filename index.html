@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cherryberry Foods and Catering – Premium catering services in Uyo, Akwa Ibom State. Weddings, corporate events, birthdays, and more." />
+  <meta name="keywords" content="catering Uyo, food catering Akwa Ibom, wedding catering Nigeria, party catering Uyo, Cherryberry Foods" />
+  <meta name="author" content="Cherryberry Foods and Catering" />
+  <meta property="og:title" content="Cherryberry Foods and Catering | Premium Catering in Uyo" />
+  <meta property="og:description" content="Exceptional food and professional catering services for every occasion in Uyo, Akwa Ibom State." />
+  <meta property="og:type" content="website" />
+  <title>Cherryberry Foods and Catering | Premium Catering in Uyo, Akwa Ibom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- STICKY HEADER -->
+  <header class="header" id="header">
+    <div class="header-inner container">
+      <a href="#home" class="logo" aria-label="Cherryberry Foods and Catering">
+        <div class="logo-mark">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="14" cy="24" r="9" fill="#C1121F"/>
+            <circle cx="26" cy="24" r="9" fill="#8B103E"/>
+            <path d="M20 15 Q22 6 28 8" stroke="#D9A441" stroke-width="2" stroke-linecap="round" fill="none"/>
+            <path d="M20 15 Q18 6 12 8" stroke="#D9A441" stroke-width="2" stroke-linecap="round" fill="none"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Cherryberry</span>
+          <span class="logo-tagline">Foods &amp; Catering</span>
+        </div>
+      </a>
+      <nav class="nav-desktop" role="navigation" aria-label="Main navigation">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#events" class="nav-link">Events</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#contact" class="btn btn-primary btn-sm">Book Catering</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Mobile navigation">
+      <button class="mobile-menu-close" id="mobile-close" aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="mobile-logo">
+        <span class="logo-name">Cherryberry</span>
+        <span class="logo-tagline">Foods &amp; Catering</span>
+      </div>
+      <nav class="mobile-nav" role="navigation" aria-label="Mobile navigation">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#services" class="mobile-nav-link">Services</a>
+        <a href="#menu" class="mobile-nav-link">Menu Highlights</a>
+        <a href="#events" class="mobile-nav-link">Events</a>
+        <a href="#reviews" class="mobile-nav-link">Reviews</a>
+        <a href="#faq" class="mobile-nav-link">FAQ</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-primary mobile-cta">Book Catering</a>
+    </div>
+    <div class="mobile-overlay" id="mobile-overlay"></div>
+  </header>
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero" id="home" aria-label="Hero">
+    <div class="hero-slider" id="heroSlider">
+
+      <div class="hero-slide active" data-slide="0">
+        <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1555244162-803834f70033?w=1800&q=85&auto=format&fit=crop');">
+          <div class="hero-bg-overlay"></div>
+        </div>
+        <div class="hero-content container">
+          <div class="hero-badge">Uyo's Premier Catering Service</div>
+          <h1 class="hero-heading">Premium Catering<br><em>Experience in Uyo</em></h1>
+          <p class="hero-text">Exceptional food, unforgettable events, and professional service for every occasion.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Book Catering</a>
+            <a href="#services" class="btn btn-outline-light">View Services</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide" data-slide="1">
+        <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=1800&q=85&auto=format&fit=crop');">
+          <div class="hero-bg-overlay"></div>
+        </div>
+        <div class="hero-content container">
+          <div class="hero-badge">Authentic Nigerian Cuisine</div>
+          <h1 class="hero-heading">Authentic Nigerian<br><em>Flavors Crafted Fresh Daily</em></h1>
+          <p class="hero-text">From party jollof rice to complete event catering, every meal is prepared with excellence.</p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn btn-primary">Explore Menu</a>
+            <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%20Foods%2C%20I%20would%20like%20to%20order%20today." class="btn btn-outline-light" target="_blank" rel="noopener">Order Today</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-slide" data-slide="2">
+        <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1530062845289-9109b2c9c868?w=1800&q=85&auto=format&fit=crop');">
+          <div class="hero-bg-overlay"></div>
+        </div>
+        <div class="hero-content container">
+          <div class="hero-badge">Trusted Across Akwa Ibom</div>
+          <h1 class="hero-heading">Trusted by Families,<br><em>Events and Organizations</em></h1>
+          <p class="hero-text">Delivering memorable dining experiences across Akwa Ibom State.</p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Request Quote</a>
+            <a href="#contact" class="btn btn-outline-light">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-controls">
+      <button class="hero-dot active" aria-label="Slide 1" data-index="0"></button>
+      <button class="hero-dot" aria-label="Slide 2" data-index="1"></button>
+      <button class="hero-dot" aria-label="Slide 3" data-index="2"></button>
+    </div>
+    <button class="hero-arrow hero-prev" aria-label="Previous slide">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="hero-arrow hero-next" aria-label="Next slide">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+    </button>
+    <div class="scroll-indicator" aria-hidden="true"><div class="scroll-line"></div></div>
+  </section>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section class="about section" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-col" data-aos="fade-right">
+          <div class="about-img-wrapper">
+            <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=700&q=85&auto=format&fit=crop" alt="Chef Linda Ekwere, Head Chef at Cherryberry Foods" class="about-main-img" loading="lazy" width="700" height="850" />
+            <div class="about-accent-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="accent-card-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="#C1121F" stroke-width="2" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              </div>
+              <div>
+                <div class="accent-card-number">4.9/5</div>
+                <div class="accent-card-label">Customer Rating</div>
+              </div>
+            </div>
+            <div class="about-badge-exp">
+              <span class="badge-num">7+</span>
+              <span class="badge-txt">Years of<br>Excellence</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content-col" data-aos="fade-left">
+          <div class="section-label">Our Story</div>
+          <h2 class="section-heading" id="about-heading">Crafting Culinary<br><em>Excellence Since 2018</em></h2>
+          <p class="about-text">Cherryberry Foods and Catering was born from a deep passion for authentic Nigerian cuisine and the joy of bringing people together through exceptional food. Founded in Uyo, Akwa Ibom State, we have grown from a small family kitchen into one of the region's most trusted catering brands.</p>
+          <p class="about-text">Our mission is simple: to deliver consistently outstanding food and service that leaves every guest reaching for seconds. From intimate family gatherings to large corporate banquets, we approach every event with the same dedication to quality and detail.</p>
+          <div class="about-values">
+            <div class="value-item">
+              <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#C1121F" stroke-width="2" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+              <div><strong>Our Mission</strong><p>To serve exceptional food with genuine care, creating lasting memories at every event.</p></div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#C1121F" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+              <div><strong>Our Vision</strong><p>To become the most celebrated catering brand in Akwa Ibom State and beyond.</p></div>
+            </div>
+          </div>
+          <div class="chef-highlight">
+            <img src="https://images.unsplash.com/photo-1583394293214-0dbf5b1e1fa8?w=120&q=80&auto=format&fit=crop&crop=face" alt="Chef Linda Ekwere" class="chef-avatar-img" loading="lazy" width="60" height="60" />
+            <div class="chef-info">
+              <strong>Chef Linda Ekwere</strong>
+              <span>Head Chef &amp; Founder</span>
+              <p>"Every dish I prepare carries the warmth of a home-cooked meal and the precision of professional culinary craft."</p>
+            </div>
+          </div>
+          <div class="about-cta-row">
+            <a href="#contact" class="btn btn-primary">Book Your Event</a>
+            <a href="#services" class="btn btn-outline-dark">Our Services</a>
+          </div>
+        </div>
+      </div>
+      <div class="stats-row" data-aos="fade-up">
+        <div class="stat-item">
+          <div class="stat-number" data-count="7">0</div><div class="stat-suffix">+</div>
+          <div class="stat-label">Years of Experience</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="1200">0</div><div class="stat-suffix">+</div>
+          <div class="stat-label">Events Catered</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="5000">0</div><div class="stat-suffix">+</div>
+          <div class="stat-label">Happy Customers</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="150">0</div><div class="stat-suffix">+</div>
+          <div class="stat-label">Daily Orders Served</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SERVICES ═══ -->
+  <section class="services section section-light" id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-label">What We Offer</div>
+        <h2 class="section-heading" id="services-heading">Our Premium<br><em>Catering Services</em></h2>
+        <p class="section-subtext">From quick retail bites to full-scale event catering, we cover every food service need with excellence and professionalism.</p>
+      </div>
+
+      <div class="services-grid" id="servicesGrid">
+
+        <article class="service-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&q=80&auto=format&fit=crop" alt="Quick Service Retail" loading="lazy" width="500" height="280" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg></div>
+            <h3>Quick Service Retail</h3>
+            <p>Fresh, ready-to-eat meals available daily from our Uyo locations. Perfect for busy professionals and families.</p>
+            <a href="#contact" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="service-card" data-aos="fade-up" data-aos-delay="80">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500&q=80&auto=format&fit=crop" alt="Outdoor Catering" loading="lazy" width="500" height="280" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h3>Outdoor Catering</h3>
+            <p>Professional outdoor food service for festivals, community events, and open-air gatherings of any scale.</p>
+            <a href="#contact" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="service-card featured" data-aos="fade-up" data-aos-delay="160">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=500&q=80&auto=format&fit=crop" alt="Wedding Catering" loading="lazy" width="500" height="280" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+            <h3>Wedding Catering</h3>
+            <p>Make your special day truly unforgettable with our bespoke wedding catering packages, crafted for elegance.</p>
+            <a href="#contact" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="service-card" data-aos="fade-up" data-aos-delay="240">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=500&q=80&auto=format&fit=crop" alt="Birthday Catering" loading="lazy" width="500" height="280" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+            <h3>Birthday Catering</h3>
+            <p>Celebrate in style with custom birthday catering packages. From kids' parties to milestone birthdays, we handle it all.</p>
+            <a href="#contact" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></a>
+          </div>
+        </article>
+
+        <!-- Hidden cards (show-more) -->
+        <article class="service-card extra-card hidden-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=500&q=80&auto=format&fit=crop" alt="Corporate Catering" loading="lazy" width="500" height="280" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+            <h3>Corporate Catering</h3>
+            <p>Professional catering for board meetings, staff lunches, product launches, and corporate events. Impress your guests.</p>
+            <a href="#contact" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="service-card extra-card hidden-card" data-aos="fade-up" data-aos-delay="80">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1615361200141-f45040f367be?w=500&q=80&auto=format&fit=crop" alt="Doorstep Bulk Delivery" loading="lazy" width="500" height="280" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div>
+            <h3>Doorstep Bulk Delivery</h3>
+            <p>Large quantity food delivery directly to your venue. Freshly prepared and transported in hygiene-sealed containers.</p>
+            <a href="#contact" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="service-card extra-card hidden-card" data-aos="fade-up" data-aos-delay="160">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1606787366850-de6330128bfc?w=500&q=80&auto=format&fit=crop" alt="Custom Party Packs" loading="lazy" width="500" height="280" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 12V22H4V12"/><path d="M22 7H2v5h20V7z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div>
+            <h3>Custom Party Packs</h3>
+            <p>Thoughtfully curated food packs for every party size. Choose your dishes, portions, and packaging style.</p>
+            <a href="#contact" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></a>
+          </div>
+        </article>
+
+        <article class="service-card extra-card hidden-card" data-aos="fade-up" data-aos-delay="240">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1567521464027-f127ff144326?w=500&q=80&auto=format&fit=crop" alt="Institutional Catering" loading="lazy" width="500" height="280" />
+          </div>
+          <div class="service-body">
+            <div class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+            <h3>Institutional Catering</h3>
+            <p>Reliable food services for schools, hospitals, government offices, and institutions with daily meal contracts.</p>
+            <a href="#contact" class="service-link">Book Now <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></a>
+          </div>
+        </article>
+
+      </div><!-- end services-grid -->
+
+      <!-- Services section CTA + Show More -->
+      <div class="section-cta-row" data-aos="fade-up">
+        <button class="btn btn-outline-dark show-more-btn" id="servicesToggle" data-target="servicesGrid" data-label-more="View All Services" data-label-less="Show Less">
+          View All Services
+          <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <a href="#contact" class="btn btn-primary">Book a Service</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ MENU HIGHLIGHTS ═══ -->
+  <section class="menu section" id="menu" aria-labelledby="menu-heading">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-label">Our Signature Dishes</div>
+        <h2 class="section-heading" id="menu-heading">Featured<br><em>Menu Highlights</em></h2>
+        <p class="section-subtext">Every dish is crafted with the finest ingredients and authentic Nigerian culinary tradition.</p>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+
+        <article class="menu-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1600803907087-f56d462fd26b?w=500&q=80&auto=format&fit=crop" alt="Smokey Party Jollof Rice" loading="lazy" width="500" height="340" />
+            <div class="menu-overlay">
+              <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%20Foods%2C%20I%20would%20like%20to%20order%20Smokey%20Party%20Jollof%20Rice." class="btn btn-primary btn-sm" target="_blank" rel="noopener">Order Now</a>
+            </div>
+            <div class="menu-tag">Popular</div>
+          </div>
+          <div class="menu-info">
+            <h3>Smokey Party Jollof Rice</h3>
+            <p>Our signature smokey jollof rice, slow-cooked over open flame for that unmistakable party flavor.</p>
+          </div>
+        </article>
+
+        <article class="menu-card" data-aos="fade-up" data-aos-delay="80">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=500&q=80&auto=format&fit=crop" alt="Seasoned Fried Rice" loading="lazy" width="500" height="340" />
+            <div class="menu-overlay">
+              <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%20Foods%2C%20I%20would%20like%20to%20order%20Seasoned%20Fried%20Rice." class="btn btn-primary btn-sm" target="_blank" rel="noopener">Order Now</a>
+            </div>
+          </div>
+          <div class="menu-info">
+            <h3>Seasoned Fried Rice</h3>
+            <p>Perfectly seasoned fried rice loaded with vegetables, proteins, and aromatic spices. A crowd favorite.</p>
+          </div>
+        </article>
+
+        <article class="menu-card" data-aos="fade-up" data-aos-delay="160">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?w=500&q=80&auto=format&fit=crop" alt="Rich Coconut Rice" loading="lazy" width="500" height="340" />
+            <div class="menu-overlay">
+              <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%20Foods%2C%20I%20would%20like%20to%20order%20Rich%20Coconut%20Rice." class="btn btn-primary btn-sm" target="_blank" rel="noopener">Order Now</a>
+            </div>
+          </div>
+          <div class="menu-info">
+            <h3>Rich Coconut Rice</h3>
+            <p>Creamy, aromatic coconut rice cooked with fresh coconut milk. A true Southern Nigerian delight.</p>
+          </div>
+        </article>
+
+        <article class="menu-card" data-aos="fade-up" data-aos-delay="240">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&q=80&auto=format&fit=crop" alt="Moin-Moin" loading="lazy" width="500" height="340" />
+            <div class="menu-overlay">
+              <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%20Foods%2C%20I%20would%20like%20to%20order%20Moin-Moin." class="btn btn-primary btn-sm" target="_blank" rel="noopener">Order Now</a>
+            </div>
+            <div class="menu-tag">Chef's Pick</div>
+          </div>
+          <div class="menu-info">
+            <h3>Moin-Moin</h3>
+            <p>Silky smooth bean pudding steamed with egg, fish, and a blend of Nigerian spices. Rich and satisfying.</p>
+          </div>
+        </article>
+
+        <!-- Extra menu items – hidden by default -->
+        <article class="menu-card extra-card hidden-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=500&q=80&auto=format&fit=crop" alt="Vegetable Chicken Sauce" loading="lazy" width="500" height="340" />
+            <div class="menu-overlay">
+              <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%20Foods%2C%20I%20would%20like%20to%20order%20Vegetable%20Chicken%20Sauce." class="btn btn-primary btn-sm" target="_blank" rel="noopener">Order Now</a>
+            </div>
+          </div>
+          <div class="menu-info">
+            <h3>Vegetable Chicken Sauce</h3>
+            <p>Tender chicken in a rich, spiced vegetable sauce. Perfectly pairs with rice, yam, or fried plantain.</p>
+          </div>
+        </article>
+
+        <article class="menu-card extra-card hidden-card" data-aos="fade-up" data-aos-delay="80">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500&q=80&auto=format&fit=crop" alt="Fresh Garden Salads" loading="lazy" width="500" height="340" />
+            <div class="menu-overlay">
+              <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%20Foods%2C%20I%20would%20like%20to%20order%20Fresh%20Salads." class="btn btn-primary btn-sm" target="_blank" rel="noopener">Order Now</a>
+            </div>
+          </div>
+          <div class="menu-info">
+            <h3>Fresh Garden Salads</h3>
+            <p>Crisp, colorful salads prepared fresh daily. Custom dressings and ingredients tailored to your event.</p>
+          </div>
+        </article>
+
+        <article class="menu-card extra-card hidden-card" data-aos="fade-up" data-aos-delay="160">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=500&q=80&auto=format&fit=crop" alt="Signature Party Packs" loading="lazy" width="500" height="340" />
+            <div class="menu-overlay">
+              <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%20Foods%2C%20I%20would%20like%20to%20order%20Party%20Packs." class="btn btn-primary btn-sm" target="_blank" rel="noopener">Order Now</a>
+            </div>
+          </div>
+          <div class="menu-info">
+            <h3>Signature Party Packs</h3>
+            <p>Beautifully packaged food packs ideal for birthdays, celebrations, and corporate gifting.</p>
+          </div>
+        </article>
+
+        <article class="menu-card extra-card hidden-card" data-aos="fade-up" data-aos-delay="240">
+          <div class="menu-img-wrap">
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500&q=80&auto=format&fit=crop" alt="Happy Hour Specials" loading="lazy" width="500" height="340" />
+            <div class="menu-overlay">
+              <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%20Foods%2C%20I%20would%20like%20to%20know%20about%20Happy%20Hour%20Specials." class="btn btn-primary btn-sm" target="_blank" rel="noopener">Order Now</a>
+            </div>
+            <div class="menu-tag">Daily Deal</div>
+          </div>
+          <div class="menu-info">
+            <h3>Happy Hour Specials</h3>
+            <p>Daily discounted meals and combo deals during happy hour. Great value, great taste — always on time.</p>
+          </div>
+        </article>
+
+      </div><!-- end menu-grid -->
+
+      <div class="section-cta-row" data-aos="fade-up">
+        <button class="btn btn-outline-dark show-more-btn" id="menuToggle" data-target="menuGrid" data-label-more="View Full Menu" data-label-less="Show Less">
+          View Full Menu
+          <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%20Foods%2C%20I%20would%20like%20to%20place%20a%20food%20order." class="btn btn-primary" target="_blank" rel="noopener">Order via WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ WHY CHOOSE US ═══ -->
+  <section class="why section section-light" id="why" aria-labelledby="why-heading">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-label">Why Cherryberry</div>
+        <h2 class="section-heading" id="why-heading">Why Clients Choose<br><em>Us Over Others</em></h2>
+        <p class="section-subtext">We combine professional culinary expertise with genuine Nigerian hospitality for results that go beyond expectations.</p>
+      </div>
+
+      <div class="why-grid" id="whyGrid">
+
+        <div class="why-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="why-icon-img">
+            <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=120&q=80&auto=format&fit=crop" alt="Fresh Ingredients" loading="lazy" width="64" height="64" />
+          </div>
+          <h3>Fresh Ingredients</h3>
+          <p>We source only the freshest, locally-grown produce and premium proteins for every dish we prepare.</p>
+        </div>
+
+        <div class="why-card" data-aos="fade-up" data-aos-delay="60">
+          <div class="why-icon-img">
+            <img src="https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=120&q=80&auto=format&fit=crop" alt="Fast Delivery" loading="lazy" width="64" height="64" />
+          </div>
+          <h3>Fast Delivery</h3>
+          <p>Reliable, on-time delivery to your venue. We respect your schedule and ensure food arrives hot and fresh.</p>
+        </div>
+
+        <div class="why-card" data-aos="fade-up" data-aos-delay="120">
+          <div class="why-icon-img">
+            <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=120&q=80&auto=format&fit=crop" alt="Affordable Packages" loading="lazy" width="64" height="64" />
+          </div>
+          <h3>Affordable Packages</h3>
+          <p>Premium quality doesn't have to break the bank. We offer flexible pricing to suit every budget and event size.</p>
+        </div>
+
+        <div class="why-card" data-aos="fade-up" data-aos-delay="180">
+          <div class="why-icon-img">
+            <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=120&q=80&auto=format&fit=crop" alt="Experienced Team" loading="lazy" width="64" height="64" />
+          </div>
+          <h3>Experienced Team</h3>
+          <p>Our seasoned culinary team brings years of professional experience to every plate and every event.</p>
+        </div>
+
+        <!-- Extra why cards -->
+        <div class="why-card extra-card hidden-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="why-icon-img">
+            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=120&q=80&auto=format&fit=crop" alt="Premium Taste" loading="lazy" width="64" height="64" />
+          </div>
+          <h3>Premium Taste</h3>
+          <p>Authentic recipes, expert seasoning, and a commitment to excellence that makes every bite memorable.</p>
+        </div>
+
+        <div class="why-card extra-card hidden-card" data-aos="fade-up" data-aos-delay="60">
+          <div class="why-icon-img">
+            <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=120&q=80&auto=format&fit=crop" alt="Reliable Service" loading="lazy" width="64" height="64" />
+          </div>
+          <h3>Reliable Service</h3>
+          <p>Consistency is our hallmark. Count on us to deliver the same high standard of food and service every time.</p>
+        </div>
+
+        <div class="why-card extra-card hidden-card" data-aos="fade-up" data-aos-delay="120">
+          <div class="why-icon-img">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=120&q=80&auto=format&fit=crop" alt="24/7 Support" loading="lazy" width="64" height="64" />
+          </div>
+          <h3>24/7 Support</h3>
+          <p>Our customer support team is always available via phone and WhatsApp to assist with your orders and inquiries.</p>
+        </div>
+
+        <div class="why-card extra-card hidden-card" data-aos="fade-up" data-aos-delay="180">
+          <div class="why-icon-img">
+            <img src="https://images.unsplash.com/photo-1530062845289-9109b2c9c868?w=120&q=80&auto=format&fit=crop" alt="Event Expertise" loading="lazy" width="64" height="64" />
+          </div>
+          <h3>Event Expertise</h3>
+          <p>From intimate gatherings to events with 2,000+ guests, our specialists ensure seamless execution every time.</p>
+        </div>
+
+      </div><!-- end why-grid -->
+
+      <div class="section-cta-row" data-aos="fade-up">
+        <button class="btn btn-outline-dark show-more-btn" id="whyToggle" data-target="whyGrid" data-label-more="See All Reasons" data-label-less="Show Less">
+          See All Reasons
+          <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <a href="#contact" class="btn btn-primary">Get Free Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EVENTS SHOWCASE ═══ -->
+  <section class="events section" id="events" aria-labelledby="events-heading">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-label">Our Portfolio</div>
+        <h2 class="section-heading" id="events-heading">Events We've<br><em>Made Memorable</em></h2>
+        <p class="section-subtext">A glimpse into the celebrations, ceremonies, and corporate events we have had the honour of serving.</p>
+      </div>
+
+      <div class="events-grid">
+        <div class="event-tile tile-tall" data-aos="fade-up" data-aos-delay="0">
+          <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80&auto=format&fit=crop" alt="Wedding Catering" loading="lazy" width="800" height="600" />
+          <div class="event-info">
+            <span class="event-tag">Weddings</span>
+            <h3>Elegance in Every Bite</h3>
+            <a href="#contact" class="event-cta-btn">Book Wedding Catering</a>
+          </div>
+        </div>
+        <div class="event-tile" data-aos="fade-up" data-aos-delay="80">
+          <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&q=80&auto=format&fit=crop" alt="Birthday Party" loading="lazy" width="600" height="400" />
+          <div class="event-info">
+            <span class="event-tag">Birthdays</span>
+            <h3>Birthday Celebrations</h3>
+            <a href="#contact" class="event-cta-btn">Plan a Birthday</a>
+          </div>
+        </div>
+        <div class="event-tile" data-aos="fade-up" data-aos-delay="160">
+          <img src="https://images.unsplash.com/photo-1551632436-cbf8dd35adfa?w=600&q=80&auto=format&fit=crop" alt="Corporate Functions" loading="lazy" width="600" height="400" />
+          <div class="event-info">
+            <span class="event-tag">Corporate</span>
+            <h3>Corporate Functions</h3>
+            <a href="#contact" class="event-cta-btn">Book Corporate Event</a>
+          </div>
+        </div>
+        <div class="event-tile" data-aos="fade-up" data-aos-delay="80">
+          <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80&auto=format&fit=crop" alt="Church Events" loading="lazy" width="600" height="400" />
+          <div class="event-info">
+            <span class="event-tag">Church Events</span>
+            <h3>Fellowship &amp; Faith</h3>
+            <a href="#contact" class="event-cta-btn">Book Church Event</a>
+          </div>
+        </div>
+        <div class="event-tile tile-wide" data-aos="fade-up" data-aos-delay="0">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1000&q=80&auto=format&fit=crop" alt="Burial Ceremony" loading="lazy" width="1000" height="500" />
+          <div class="event-info">
+            <span class="event-tag">Burial Ceremonies</span>
+            <h3>Honouring Loved Ones with Dignity</h3>
+            <a href="#contact" class="event-cta-btn">Enquire Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-cta-row" data-aos="fade-up">
+        <p class="events-cta-text">Ready to add your event to our portfolio of success stories?</p>
+        <a href="#contact" class="btn btn-primary">Book Your Event</a>
+        <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%2C%20I%20want%20to%20discuss%20event%20catering." class="btn btn-outline-dark" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ REVIEWS ═══ -->
+  <section class="reviews section section-light" id="reviews" aria-labelledby="reviews-heading">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-label">Customer Reviews</div>
+        <h2 class="section-heading" id="reviews-heading">What Our Clients<br><em>Say About Us</em></h2>
+        <div class="reviews-summary">
+          <div class="reviews-score">4.9</div>
+          <div class="reviews-meta">
+            <div class="stars-row" aria-label="4.9 out of 5 stars">
+              <svg viewBox="0 0 24 24" fill="#D9A441" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="#D9A441" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="#D9A441" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="#D9A441" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="#D9A441" stroke="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <span>Based on verified customer reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews-carousel" id="reviewsCarousel" aria-live="polite">
+        <div class="reviews-track" id="reviewsTrack">
+
+          <article class="review-card">
+            <div class="review-header">
+              <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=80&q=80&auto=format&fit=crop&crop=face" alt="Chiamaka Okafor" class="review-avatar-img" loading="lazy" width="48" height="48" />
+              <div class="review-author-info">
+                <strong>Chiamaka Okafor</strong>
+                <div class="review-stars" aria-label="5 stars">
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                </div>
+              </div>
+              <span class="review-date">March 2025</span>
+            </div>
+            <p class="review-text">Cherryberry catered my daughter's wedding and absolutely exceeded every expectation. The jollof rice was out of this world! Guests are still calling me to ask who did our catering. Highly recommended!</p>
+            <div class="verified-badge"><svg viewBox="0 0 24 24" fill="#C1121F" aria-hidden="true"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>Verified Customer</div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-header">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&q=80&auto=format&fit=crop&crop=face" alt="Emeka Udoh" class="review-avatar-img" loading="lazy" width="48" height="48" />
+              <div class="review-author-info">
+                <strong>Emeka Udoh</strong>
+                <div class="review-stars" aria-label="5 stars">
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                </div>
+              </div>
+              <span class="review-date">January 2025</span>
+            </div>
+            <p class="review-text">We used Cherryberry for our company's annual dinner and the feedback from staff was phenomenal. Professional, punctual, and the food quality was top tier. We have already booked them again for our next event.</p>
+            <div class="verified-badge"><svg viewBox="0 0 24 24" fill="#C1121F" aria-hidden="true"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>Verified Customer</div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-header">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&q=80&auto=format&fit=crop&crop=face" alt="Blessing Akpan" class="review-avatar-img" loading="lazy" width="48" height="48" />
+              <div class="review-author-info">
+                <strong>Blessing Akpan</strong>
+                <div class="review-stars" aria-label="5 stars">
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                </div>
+              </div>
+              <span class="review-date">November 2024</span>
+            </div>
+            <p class="review-text">Ordered party packs for my son's 5th birthday and everything was perfect. The portions were generous, the presentation was beautiful, and all 80 guests raved about the food. Cherryberry never disappoints!</p>
+            <div class="verified-badge"><svg viewBox="0 0 24 24" fill="#C1121F" aria-hidden="true"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>Verified Customer</div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-header">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&q=80&auto=format&fit=crop&crop=face" alt="Pastor Nnamdi Eze" class="review-avatar-img" loading="lazy" width="48" height="48" />
+              <div class="review-author-info">
+                <strong>Pastor Nnamdi Eze</strong>
+                <div class="review-stars" aria-label="5 stars">
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                </div>
+              </div>
+              <span class="review-date">October 2024</span>
+            </div>
+            <p class="review-text">Cherryberry handled our church anniversary dinner for 400 members and delivered a flawless service. The food arrived hot, the serving staff were courteous, and the coconut rice was absolutely divine. God bless this business!</p>
+            <div class="verified-badge"><svg viewBox="0 0 24 24" fill="#C1121F" aria-hidden="true"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>Verified Customer</div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-header">
+              <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=80&q=80&auto=format&fit=crop&crop=face" alt="Ifeoma Bassey" class="review-avatar-img" loading="lazy" width="48" height="48" />
+              <div class="review-author-info">
+                <strong>Ifeoma Bassey</strong>
+                <div class="review-stars" aria-label="5 stars">
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                  <svg viewBox="0 0 12 12" fill="#D9A441" aria-hidden="true"><path d="M6 1l1.5 3 3.3.5-2.4 2.3.6 3.2L6 8.5l-3 1.5.6-3.2L1.2 4.5l3.3-.5z"/></svg>
+                </div>
+              </div>
+              <span class="review-date">August 2024</span>
+            </div>
+            <p class="review-text">I have used Cherryberry for three different events now and they always deliver. Their customer service via WhatsApp is fantastic and their moin-moin is genuinely the best I have ever tasted in Uyo. Five stars without hesitation.</p>
+            <div class="verified-badge"><svg viewBox="0 0 24 24" fill="#C1121F" aria-hidden="true"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 17l-6.2 4.3 2.4-7.4L2 9.4h7.6z"/></svg>Verified Customer</div>
+          </article>
+
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="reviewPrev" aria-label="Previous review"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg></button>
+        <div class="carousel-dots" id="carouselDots"></div>
+        <button class="carousel-btn" id="reviewNext" aria-label="Next review"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>
+      </div>
+
+      <div class="section-cta-row" data-aos="fade-up">
+        <p class="reviews-cta-text">Join thousands of satisfied clients across Akwa Ibom State.</p>
+        <a href="#contact" class="btn btn-primary">Book Your Catering</a>
+        <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%2C%20I%20would%20like%20to%20leave%20a%20review." class="btn btn-outline-dark" target="_blank" rel="noopener">Leave a Review</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FAQ ═══ -->
+  <section class="faq section" id="faq" aria-labelledby="faq-heading">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-label">Common Questions</div>
+        <h2 class="section-heading" id="faq-heading">Frequently Asked<br><em>Questions</em></h2>
+        <p class="section-subtext">Everything you need to know about booking, orders, and our catering services.</p>
+      </div>
+
+      <div class="faq-grid">
+        <div class="faq-list" data-aos="fade-up">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1"><span>How do I place an order?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="faq-answer" id="faq-1"><p>You can place an order by calling or messaging us on WhatsApp at +234 901 025 0079, filling out the contact form on our website, or visiting any of our Uyo locations directly. We recommend booking at least 48 hours in advance for standard orders and 2 weeks ahead for large events.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2"><span>Do you cater for weddings?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="faq-answer" id="faq-2"><p>Yes! Wedding catering is one of our signature specialties. We offer complete wedding food packages including appetizers, main courses, desserts, and serving staff. Our team works closely with you to design a custom menu that reflects the elegance of your special day.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3"><span>How early should I book for an event?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="faq-answer" id="faq-3"><p>For small orders, 24–48 hours notice is usually sufficient. For medium events (50–200 guests), we recommend booking 1–2 weeks ahead. For large events like weddings and corporate banquets, please book at least 3–4 weeks in advance to secure your date.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-4"><span>Do you offer bulk food delivery?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="faq-answer" id="faq-4"><p>Absolutely. Our doorstep bulk delivery service covers large quantity food orders for events, institutions, and organizations. Food is transported in sealed, hygienic containers and delivered directly to your venue. Contact us for pricing on bulk orders of 50 portions and above.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-5"><span>Can I customize my menu package?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="faq-answer" id="faq-5"><p>Yes, absolutely! We pride ourselves on flexibility. You can mix and match dishes, request specific Nigerian recipes, accommodate dietary requirements, and create a fully personalized food experience. Our team will guide you during a free consultation.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-6"><span>Do you deliver outside Uyo?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="faq-answer" id="faq-6"><p>Yes, we cater to events across Akwa Ibom State including Eket, Oron, Ikot Ekpene, and other major towns. For deliveries outside Uyo, additional logistics fees may apply depending on distance and order size. Contact us for a customized quote.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-7"><span>Do you provide serving staff?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="faq-answer" id="faq-7"><p>Yes! We provide trained, professional serving staff for events that require on-site food service. Our staff are courteous, neatly uniformed, and experienced in event catering. This service is available as an add-on to any of our catering packages.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-8"><span>What payment methods do you accept?</span><svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="faq-answer" id="faq-8"><p>We accept bank transfers, cash payments, and mobile payments via all major Nigerian bank apps (Opay, PalmPay, etc.). For large events, a 50% deposit is required to confirm your booking with the balance due 24 hours before the event date.</p></div>
+          </div>
+        </div>
+
+        <div class="faq-cta-side" data-aos="fade-left">
+          <img src="https://images.unsplash.com/photo-1555244162-803834f70033?w=600&q=80&auto=format&fit=crop" alt="Cherryberry catering team" loading="lazy" width="600" height="400" class="faq-side-img" />
+          <div class="faq-cta-card">
+            <h3>Still have questions?</h3>
+            <p>Our team is ready to answer any additional questions and help you plan the perfect event.</p>
+            <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%2C%20I%20have%20a%20question%20about%20your%20catering%20services." class="btn btn-primary btn-full" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:18px;height:18px"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+              Chat on WhatsApp
+            </a>
+            <a href="#contact" class="btn btn-outline-dark btn-full" style="margin-top:10px;">Send a Message</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section class="contact section section-light" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="section-heading" id="contact-heading">Let's Plan Your<br><em>Perfect Event</em></h2>
+        <p class="section-subtext">Fill the form below or reach us directly. We respond within 24 hours.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-form-col" data-aos="fade-right">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group"><label for="name">Full Name</label><input type="text" id="name" name="name" placeholder="Your full name" required autocomplete="name" /></div>
+              <div class="form-group"><label for="phone">Phone Number</label><input type="tel" id="phone" name="phone" placeholder="+234 XXX XXX XXXX" required autocomplete="tel" /></div>
+            </div>
+            <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" /></div>
+            <div class="form-group">
+              <label for="event-type">Event Type</label>
+              <select id="event-type" name="event-type">
+                <option value="" disabled selected>Select event type</option>
+                <option value="wedding">Wedding</option>
+                <option value="birthday">Birthday</option>
+                <option value="corporate">Corporate Event</option>
+                <option value="church">Church Event</option>
+                <option value="burial">Burial Ceremony</option>
+                <option value="delivery">Bulk Delivery</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Tell us about your event, expected guest count, date, and any special requirements..."></textarea></div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <div class="contact-info-col" data-aos="fade-left">
+          <div class="contact-info-card">
+            <h3>Reach Us Directly</h3>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#C1121F" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.39 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.94a16 16 0 0 0 6 6l1.06-1.06a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+              <div><strong>Call / WhatsApp</strong><a href="tel:+2349010250079">+234 901 025 0079</a></div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#C1121F" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div><strong>Our Locations</strong><span>Oron Road, Uyo</span><span>Ikpa Road, Uyo</span><span>Aka Road, Uyo</span></div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon"><svg viewBox="0 0 24 24" fill="none" stroke="#C1121F" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+              <div><strong>Business Hours</strong><span>Monday – Saturday: 7:00 AM – 9:00 PM</span><span>Sunday: 10:00 AM – 7:00 PM</span></div>
+            </div>
+            <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%20Foods%20and%20Catering%2C%20I%20would%20like%20to%20make%20an%20inquiry." class="btn btn-whatsapp" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+              Chat on WhatsApp Now
+            </a>
+          </div>
+          <div class="map-embed" aria-label="Cherryberry Foods location map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63476.14012854!2d7.879654!3d5.052766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10573d7a53c50c01%3A0x85fbf7543fcfa43!2sUyo%2C%20Akwa%20Ibom%20State%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1700000000000!5m2!1sen!2sng"
+              width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Cherryberry Foods and Catering location in Uyo"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FINAL CTA ═══ -->
+  <section class="final-cta" aria-label="Call to action">
+    <div class="final-cta-bg">
+      <img src="https://images.unsplash.com/photo-1530062845289-9109b2c9c868?w=1800&q=75&auto=format&fit=crop" alt="" role="presentation" loading="lazy" width="1800" height="900" class="final-cta-img" />
+    </div>
+    <div class="container">
+      <div class="final-cta-content" data-aos="fade-up">
+        <div class="section-label light">Ready to Begin?</div>
+        <h2>Ready to Make Your Event<br><em>Truly Memorable?</em></h2>
+        <p>Let's create an unforgettable food experience for your guests. Our team is standing by to make it happen.</p>
+        <div class="final-cta-actions">
+          <a href="#contact" class="btn btn-gold btn-lg">Book Catering Today</a>
+          <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%20Foods%20and%20Catering%2C%20I%20would%20like%20to%20make%20an%20inquiry." class="btn btn-outline-light btn-lg" target="_blank" rel="noopener">WhatsApp Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="footer-logo" aria-label="Cherryberry Foods">
+            <div class="logo-mark"><svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="14" cy="24" r="9" fill="#C1121F"/><circle cx="26" cy="24" r="9" fill="#8B103E"/><path d="M20 15 Q22 6 28 8" stroke="#D9A441" stroke-width="2" stroke-linecap="round" fill="none"/><path d="M20 15 Q18 6 12 8" stroke="#D9A441" stroke-width="2" stroke-linecap="round" fill="none"/></svg></div>
+            <div class="logo-text"><span class="logo-name">Cherryberry</span><span class="logo-tagline">Foods &amp; Catering</span></div>
+          </a>
+          <p>Premium catering and food services for every occasion in Uyo, Akwa Ibom State, Nigeria.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" class="social-link" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="https://wa.me/2349010250079" class="social-link" aria-label="WhatsApp" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#services">Wedding Catering</a></li>
+            <li><a href="#services">Birthday Catering</a></li>
+            <li><a href="#services">Corporate Catering</a></li>
+            <li><a href="#services">Outdoor Catering</a></li>
+            <li><a href="#services">Bulk Delivery</a></li>
+            <li><a href="#services">Party Packs</a></li>
+            <li><a href="#services">Institutional Catering</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact">
+            <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.39 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.94a16 16 0 0 0 6 6l1.06-1.06a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+2349010250079">+234 901 025 0079</a></p>
+            <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Oron Road · Ikpa Road · Aka Road, Uyo</p>
+            <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Mon–Sat: 7AM–9PM · Sun: 10AM–7PM</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Cherryberry Foods and Catering. All rights reserved. Uyo, Akwa Ibom State, Nigeria.</p>
+        <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/2349010250079?text=Hello%20Cherryberry%20Foods%20and%20Catering%2C%20I%20would%20like%20to%20make%20an%20inquiry." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+    <span class="whatsapp-pulse"></span>
+  </a>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+    Message sent! We'll respond within 24 hours.
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
